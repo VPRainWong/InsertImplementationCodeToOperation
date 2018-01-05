@@ -1,0 +1,28 @@
+<plugin
+		id="com.vp.plugin.sample.insertjavaoperationcode"
+		name="Java Implementation"
+		description="Insert Java Implementation to Operation"
+		provider="Visual Paradigm"
+		class="com.vp.plugin.sample.insertjavaoperationcode.InsertJavaOperationCodePlugin">
+	
+	<actionSets>
+		<actionSet id="com.vp.plugin.sample.insertjavaoperationcode.actionset1">
+			<toolbar
+					id="com.vp.plugin.sample.insertjavaoperationcode.actionset1.toolbar1"
+					orientation="north"
+					index="last"/>
+			
+			<action
+					id="com.vp.plugin.sample.insertjavaoperationcode.actionset1.InsertJavaOperationAction"
+					actionType="generalAction"
+      		name="Java Implementation"
+		      description="Insert Java Implementation to Operation"
+					style="normal"
+          icon="icon/Java_file.png"
+					toolbarPath="com.vp.plugin.sample.insertjavaoperationcode.actionset1.toolbar1/#">
+				<actionController class="com.vp.plugin.sample.insertjavaoperationcode.actions.InsertJavaOperationCodeActionControl"/>
+			</action>
+			
+		</actionSet>
+	</actionSets>	
+</plugin>
