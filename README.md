@@ -2,6 +2,9 @@ This open source plugin support insert Java implementation code to operations in
 
 Details about how to deploy this plugin to Visual Paradigm can be found at https://knowhow.visual-paradigm.com/openapi/how-to-deploy-plugins-to-vp-application/
 
-The generalizatio set can be created using the IGeneralizationSet model element. Once the IGeneralizationSet being created, user can add generalizations into generalization set. User can also use the IGeneralizationSetUIModel.setNotation() method to specify its presentation.
+The basic flow is:
+1. Obtain IJavaOperationCodeDetail from Operation.
+2. Retrieve ImplModel from IJavaOperationCodeDetial
+3. Fill in the implementation with the setCode operation.
 
 More details about this plugin can be found at https://knowhow.visual-paradigm.com/openapi/insert-implementation-to-operation/
